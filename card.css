@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+.dropbtn {
+    color: black;
+    margin-right: 1rem;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+body {
+	background: #f5f5f5;
+	font-family: "Roboto", sans-serif;
+}
+
+.shadow {
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06) !important;
+}
+
+.main-content {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+
+.img-circle {
+	height: 150px;
+	width: 150px;
+	border-radius: 150px;
+	border: 3px solid #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}
+
+.social-links a {
+	transition: all 0.2s;
+}
+.social-links a img {
+	height: 30px;
+}
+.social-links a:hover {
+	transform: translateY(-3px);
+}
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition:all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 150%;
+}
+
+section{
+    padding:5rem 9%;
+}
+
+
+.header-1{
+    background:black;
+    padding:1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header img{
+    width: 7rem;
+    position: relative;
+}
+
+
+
+.header .header-2{
+    background:whitesmoke;
+    height: 4.5rem;
+}
+
+.header .header-2 .navbar{
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.header .header-2 .navbar a{
+    color:black;
+    display: inline-block;
+    padding:1.2rem;
+    font-size: 1.5rem;
+}
+
+.header .header-2 .navbar a:hover{
+    border-bottom: 1px solid #000;
+}
+
+
+.firstnav,
+.secondnav,.advertisement,.gearup,
+.trending,.label {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  height: 35px;
+  justify-content: space-between;
+  padding: 0 45px;
+
+}
+
+.firstnav__links{
+    text-decoration: none;
+}
+
+.firstnav__options a {
+  font-size: 12px;
+  gap: 15px;
+  color: black;
+}
+
+.firstnav__logo img{
+    width: 3rem
+}
+
+.bottom-navbar{
+    text-align: center;
+    background:whitesmoke;
+    position: fixed;
+    bottom:0; left:0; right:0;
+    z-index: 1000;
+    display: none;
+}
+
+.bottom-navbar a{
+    font-size: 2.5rem;
+    padding:2rem;
+    color:black
+}
+
+.bottom-navbar a:hover{
+    border-bottom: 2px solid #000;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color:white;
+    padding:1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    color:white;
+    padding:1rem 0;
+}
+
+.footer .box-container .box a i{
+    color:white;
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .box-container .box .map{
+    width:100%;
+}
+
+.footer .share{
+    padding:1rem 0;
+    text-align: center;
+}
+

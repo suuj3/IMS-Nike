@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Application Form</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="Leave Form.css">
+
+</head>
+
+<body alink="blue">
+    
+
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="firstnav">
+
+
+
+        <div class="firstnav__logo">
+            <img class="secondnav__logo__content" src="jordan-logo.png" alt="nike logo">
+
+        </div>
+
+        <div class="firstnav__options">
+
+            <div class="dropdown">
+                <button class="dropbtn">Help</button>
+                <div class="dropdown-content">
+                  <a href="Leave Form.html">Leave Form</a>
+                  <a href="resignation.html">Resignation Form</a>
+                  <a href="promotion.html">Promotion</a>
+                  <a href="calendar.html">Calendar</a>
+                </div>
+              </div>
+              |
+          <a href="Register.html" class="firstnav__links"> &nbsp; Join Us &nbsp;|</a>
+          <a href="index.html" class="firstnav__links"> &nbsp;Sign In</a>
+          <a href="profile.html" class="firstnav__links"> &nbsp;User</a>
+
+        </div>
+
+    </div>
+
+    <div class="header-1">
+
+        <a href="#" class="logo"><img src="loader-img2.gif"> </a>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="#featured">Inventory</a>
+            <a href="#ourteam">Our Team</a>
+            <a href="#box-container">Links</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#ourteam" class="fa-solid fa-people-group"></a>
+    <a href="#box-container" class="fas fa-link"></a>
+</nav>
+
+
+<div class="container1" id="container1" >
+    <h3 class="topic pt-5 mb-5 text-warning d-flex justify-content-center ">LEAVE APPLICATION FORM</h3>
+    <div class="warning pl-5">
+    <p>Please fill in the form below if you need to leave work.</p>
+</div>
+    <div class=" m-5 ">
+    <form action="" method="get" autocomplete="off">
+        <div class=" row User-id ">
+            <label>User ID:</label>
+            <input type="text"
+            id="userId"
+            name="userid"
+            placeholder="00-00-000" required>
+        </div>
+        <div class="row">
+        <div class="name mt-3 col-6">
+            <label>First Name:</label>
+            <input type="text"
+            id="name"
+            name="name"
+            placeholder="First-Name" required>
+        </div>
+        <div class=" name mt-3 col-6">
+            <label>Last Name:</label>
+            <input type="text"
+            id="name"
+            name="name"
+            placeholder="Last-Name" required>
+        </div>
+    </div>
+    
+    <div class=" Number mt-3 ">
+        <label>Contact No:</label>
+        <input type="Number"
+        id="Number"
+        placeholder="+975 --- ---- ---" required>
+    </div>
+
+     <div class="row">
+        <div class="Date mt-3 col-6">
+            <label for="Date">Date Applied:</label>
+                 <input type="date" id="Date" placeholder="mm/dd/yy">
+        </div>
+        <div class="Date mt-3 col-6">
+            <label for="Date">Last Date:</label>
+                 <input type="date" id="Date" placeholder="mm/dd/yy">
+        </div>
+    </div>
+        <div class=" row Type mt-3">
+            <label for="type of leave">Type of Leave:</label>
+
+                <select name="Type of leave" id="type">
+                <option value="Medical">Medical</option>
+                <option value="Personal">Personal</option>
+                <option value="Business">Business</option>
+                </select>
+            </div>
+        <div class="row Reason mt-3">
+            <label  for="reason">Reaon for the leave:</label>
+            <!-- <input class=" box" type="text"
+            name="reason"> -->
+            <textarea name="reason" class="box" cols="30" rows="5" requir></textarea>
+
+        </div>
+        <form class="form-container" enctype='multipart/form-data'>
+            <div class="upload-files-container">
+     
+                <span class="cannot-upload-message"> <span class="material-icons-outlined">error</span> Please select a file first <span class="material-icons-outlined cancel-alert-button">cancel</span> </span>
+                <div class="file-block">
+                    <div class="file-info"> <span class="material-icons-outlined file-icon">description</span> <span class="file-name"> </span> | <span class="file-size">  </span> </div>
+                    <span class="material-icons remove-file-icon">delete</span>
+                    <div class="progress-bar"> </div>
+                </div>
+                
+            </div>
+        </form>
+        <div class="button d-flex justify-content-right form-action-buttons mt-5 ">
+            <button class="submit" style='margin-right:16px' type="submit" value="Submit">Submit</button>
+            <button class="reset" type="reset" value="Reset">Reset</button>
+            
+          </div>
+         
+        </form>
+      </div>
+    </div>
+    </form>
+</div>
+
+ <script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.
+bundle.min.js"integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LR
+n5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container" id="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> inventory </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our team </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> links </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +975 77 43 04 75 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +975 17 31 35 24 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> nike@gmail.com            <br><br><br><br> © 2022 Nike, Inc. All Rights Reserved </a>
+
+        </div>
+
+</div>
+
+<br><br>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+
+    </div>
+
+
+
+</section>
+
+
+<!-- js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
